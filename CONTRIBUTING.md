@@ -56,7 +56,7 @@ python3 scripts/catalog.py check
 
 ## 审查与合规
 
-核验等级分为 `metadata`、`repo_read`、`smoke`、`tested`。不把 `compileall` 单独等同于功能可用，不在测试中使用真实账号、API Key 或客户材料。任何 PR 都不得加入 Cookie、Token、LocalStorage、验证码、第三方仓库内容或平台正文。详见 [COMPLIANCE.md](COMPLIANCE.md)。
+核验等级分为 `metadata`、`repo_read`、`smoke`、`tested`。不把 `compileall` 单独等同于功能可用，不在测试中使用真实账号、API Key 或客户材料。任何 Pull Request 都不得加入 Cookie、Token、LocalStorage、验证码、第三方仓库内容或平台正文。详见 [COMPLIANCE.md](COMPLIANCE.md)。
 
 `tested` 只表示已记录的工程测试通过，不得据此宣称法条、金额计算或法律结论正确。新增测试证据应尽量记录 revision、命令、环境、fixture、通过/跳过数、mock/live 范围和法律内容校验边界。
 
